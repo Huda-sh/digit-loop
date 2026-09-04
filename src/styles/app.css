@@ -1,0 +1,54 @@
+/* Loop — layout + responsive rules on top of the DS tokens */
+
+.lp-feed-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.lp-lead-row:hover:not([data-selected]) {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.lp-lead-row:hover {
+  transform: translateY(-2px);
+}
+
+/* Note detail: list rail + detail pane */
+.lp-note-split {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  min-height: 640px;
+}
+
+@media (max-width: 900px) {
+  .lp-feed-grid {
+    grid-template-columns: 1fr;
+  }
+  .lp-note-split {
+    grid-template-columns: 1fr;
+  }
+  .lp-note-split > aside {
+    border-right: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    max-height: 320px;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .hide-sm {
+    display: none !important;
+  }
+}
+
+code {
+  background: var(--gray-100);
+  border-radius: var(--radius-xs);
+  padding: 1px 5px;
+  font-size: 0.9em;
+}
+.lp-ink code {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.85);
+}

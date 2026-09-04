@@ -1,0 +1,5 @@
+:root{
+--radius-xs:4px;--radius-sm:8px;--radius-md:12px;--radius-lg:18px;--radius-xl:26px;--radius-2xl:36px;--radius-pill:999px;
+/* the brand's design elements are rotated squircles: a square with ~30% radius, turned 45deg */
+--radius-squircle:30%; --squircle-rotate:45deg; /* @kind other */
+}

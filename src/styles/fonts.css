@@ -1,0 +1,7 @@
+/* Digit Innovation Hub webfonts.
+   SUBSTITUTION NOTE: no font binaries were supplied with the brand assets.
+   Outfit is the nearest Google Fonts match to the geometric, square-dotted
+   "Digit" wordmark; IBM Plex Sans Arabic covers the Arabic lockup ("ديجت")
+   and bilingual UI; IBM Plex Mono is used for code/data. Replace with the
+   licensed brand faces when available. */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap");

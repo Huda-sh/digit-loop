@@ -1,0 +1,27 @@
+:root{
+--font-display:"Outfit","IBM Plex Sans Arabic",system-ui,sans-serif;
+--font-body:"IBM Plex Sans Arabic","Outfit",system-ui,sans-serif;
+--font-arabic:"IBM Plex Sans Arabic",system-ui,sans-serif;
+--font-mono:"IBM Plex Mono",ui-monospace,monospace;
+
+--fs-display-1:64px;--fs-display-2:48px;--fs-h1:36px;--fs-h2:28px;--fs-h3:22px;--fs-h4:18px;
+--fs-body-lg:18px;--fs-body:16px;--fs-body-sm:14px;--fs-caption:13px;--fs-micro:11px;
+
+--lh-tight:1.05; /* @kind other */
+--lh-snug:1.2; /* @kind other */
+--lh-normal:1.5; /* @kind other */
+--lh-relaxed:1.7; /* @kind other */
+
+--fw-light:300; /* @kind other */
+--fw-regular:400; /* @kind other */
+--fw-medium:500; /* @kind other */
+--fw-semibold:600; /* @kind other */
+--fw-bold:700; /* @kind other */
+--fw-black:800; /* @kind other */
+
+--ls-display:-0.02em; /* @kind other */
+--ls-heading:-0.01em; /* @kind other */
+--ls-body:0; /* @kind other */
+--ls-eyebrow:0.14em; /* @kind other */
+--ls-button:0.01em; /* @kind other */
+}

@@ -1,0 +1,37 @@
+:root{
+/* ---- base palette (sampled from the brand colour board) ---- */
+--purple-50:#f7ecfe;--purple-100:#eed7fd;--purple-200:#dcb0fa;--purple-300:#c886f6;--purple-400:#b355f1;
+--purple-500:#9b16e8;--purple-600:#7d10bb;--purple-700:#5e0c8c;--purple-800:#40085f;--purple-900:#230434;
+--plum-50:#f6ecf5;--plum-100:#ecd8ea;--plum-300:#c07ab8;--plum-500:#8d2885;--plum-700:#661d60;--plum-900:#3c1139;
+--gold-50:#fff9e9;--gold-100:#fff1c9;--gold-300:#ffdc7d;--gold-500:#ffc533;--gold-700:#c9930c;--gold-900:#7a5a00;
+--blue-50:#e9f2fa;--blue-100:#cfe3f4;--blue-300:#6aa8d8;--blue-500:#0968b1;--blue-700:#075189;--blue-900:#04304f;
+--ink-900:#1a1a1a;--ink-800:#2d2d2d;--ink-700:#3a3f49;--ink-600:#4d5461;--ink-500:#6d7583;
+--gray-400:#9aa2b1;--gray-300:#c9cfdb;--gray-200:#e2e6ee;--gray-100:#f0f2f7;--gray-50:#f7f8fa;--white:#ffffff;
+/* board gradient: the brand boards fade light-grey -> white left to right */
+--board-grad:linear-gradient(100deg,#d1d1d1 0%,#ffffff 55%,#e7e8ec 100%); /* @kind color */
+--purple-grad:linear-gradient(135deg,#9b16e8 0%,#8d2885 100%); /* @kind color */
+
+/* ---- semantic text ---- */
+--text-primary:var(--ink-800);--text-secondary:var(--ink-600);--text-muted:var(--gray-400);
+--text-inverse:var(--white);--text-brand:var(--purple-500);--text-on-brand:var(--white);--text-link:var(--purple-600);
+
+/* ---- semantic surfaces ---- */
+--surface-page:var(--gray-100);--surface-card:var(--white);--surface-raised:var(--white);
+--surface-sunken:var(--gray-50);--surface-ink:var(--ink-800);--surface-ink-deep:var(--ink-900);
+--surface-brand:var(--purple-500);--surface-brand-subtle:var(--purple-50);
+--surface-accent:var(--gold-500);--surface-secondary:var(--plum-500);--surface-info:var(--blue-500);
+
+/* ---- borders ---- */
+--border-subtle:var(--gray-200);--border-default:var(--gray-300);--border-strong:var(--ink-700);
+--border-brand:var(--purple-500);--border-focus:var(--purple-400);
+
+/* ---- states ---- */
+--brand-hover:var(--purple-600);--brand-active:var(--purple-700);
+--ink-hover:var(--ink-900);--overlay-scrim:rgba(26,26,26,.56);--overlay-glass:rgba(255,255,255,.72);
+
+/* ---- status (ADDITION: brand board defines no success/danger colour) ---- */
+--status-success:#1e8a5f;--status-success-subtle:#e6f4ee;
+--status-warning:var(--gold-500);--status-warning-subtle:var(--gold-50);
+--status-danger:#c62828;--status-danger-subtle:#fbeaea;
+--status-info:var(--blue-500);--status-info-subtle:var(--blue-50);
+}
